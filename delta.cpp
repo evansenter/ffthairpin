@@ -21,7 +21,7 @@
 #define WINDOW_SIZE(i) (MIN_WINDOW_SIZE + i)
 #define NUM_WINDOWS (WINDOW_SIZE - MIN_WINDOW_SIZE + 1)
 #define ROOT_POW(i, pow, n) (rootsOfUnity[(i * pow) % (n + 1)])
-#define FFTBOR_DEBUG 1
+#define FFTBOR_DEBUG 0
 #define ENERGY_DEBUG (0 && !root)
 
 extern int    NS, PF, N, PRECISION, WINDOW_SIZE, MIN_WINDOW_SIZE;
