@@ -1,0 +1,11 @@
+*.out
+benchmarking/
+scripts/autobot
+FFTbor
+RNAbor
+RNAcentral
+rna.ps
+*.a
+*.o
+test*.txt
+debug*.txt
