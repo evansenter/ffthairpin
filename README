@@ -1,7 +1,4 @@
-FFTbor computes number of delta-neighbours and the partition function
-of delta-neighbours.
-
-Type 'FFTbor --help' for help on the input format.
+Type 'FFThairpin --help' for help on the input format.
 
 To compile the program run 'make' and then 'make install', but before
 doing so modify two lines in the Makefile. Change LDFLAGS to the

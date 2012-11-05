@@ -38,15 +38,16 @@ int main(int argc, char *argv[]) {
 }
 
 void usage() {
-  fprintf(stderr, "FFTbor [options] sequence [options]\n\n");
+  fprintf(stderr, "FFThairpin [options] sequence [options]\n\n");
   
-  fprintf(stderr, "FFTbor [options] filename [options]\n");
+  fprintf(stderr, "FFThairpin [options] filename [options]\n");
   fprintf(stderr, "where filename is a file of the format:\n");
   fprintf(stderr, "\t>comment (optional line)\n");
   fprintf(stderr, "\tsequence\n");
   
   fprintf(stderr, "Options include the following:\n");
   fprintf(stderr, "-pf\tcompute the total partition function Z.\n");
+  fprintf(stderr, "-N,              calculate the number of structures in each k-shell.\n");
   fprintf(stderr, "-E\tenergyfile,  the default is energy.par in this executable's directory. Must be the name of a file with all energy parameters (in the same format as used in Vienna RNA).\n");
   fprintf(stderr, "-T\ttemperature, the default is 37 degrees Celsius (unless an energyfile with parameters for a different temperature is used.\n");
   fprintf(stderr, "-P\tprecision,   the default is 4, indicates the precision of the probabilities Z_k / Z to be returned (0-9, 0 disables precision handling).\n");
